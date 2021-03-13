@@ -1,0 +1,27 @@
+{
+  "name": "api-checkpoint",
+  "version": "1.0.0",
+  "description": "API Checkpoint Security PSKE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "checkpoint",
+    "gps"
+  ],
+  "author": "mustajib",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-async-await": "^1.1.0",
+    "express-validator": "^6.6.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "sequelize": "^6.3.5"
+  }
+}
